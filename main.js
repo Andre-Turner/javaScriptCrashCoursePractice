@@ -143,6 +143,67 @@ const todoCompleted = todos.filter(function(todo) {
 
 console.log(todoCompleted);
 
+//Conditionals IF, ELSE
+// == is true
+// === matches data type
+// ( || )character means - OR
+// ( && ) character means - AND
+// ( : ) character means - ELSE
+
+
+/*const x = 4;
+
+if(x === 10) {
+    console.log('x is 10');
+} else if(x > 10) { 
+    console.log('x is greater than 10');
+
+} else {
+    console.log('x is less than 10');
+}*/
+
+//Multiple Conditionals
+
+/*const x = 4;
+const y = 11;
+
+//OR Example
+if(x > 5 || y > 10) {
+  console.log('x is more than 5 or y is more than 10');
+}
+
+//AND Example
+if(x > 5 && y > 10) {
+    console.log('x is less than 5 and y is more than 10');
+}*/
+
+// Turnery Operator - ?
+const x = 14;
+
+const color = x > 10 ? 'red' : 'blue';
+
+console.log(color);
+
+switch(color) {
+    case 'red':
+        console.log('color is red');
+        break;
+    case 'blue' :
+        console.log('color is blue');
+        break;
+    default:
+        console.log('color is NOT red or blue');
+        break;
+}
+
+//FUNCTIONS
+
+function addNums(num1,num2) {
+    console.log(num1 + num2) ;
+}
+
+addNums(5,4);
+
 
 
 
